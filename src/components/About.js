@@ -141,14 +141,14 @@ const About = () => {
              and also worked as a data annotation analyst,
               ensuring high-quality data for machine learning tasks.</p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 mt-5">
-              <div>
+              {/* <div>
                 <div className="text-[40px] font-primary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={7} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects<br />completed
                 </div>
-              </div>
+              </div> */}
               <div>
                 <div className="text-[40px] font-primary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={12} duration={3} /> : null}
